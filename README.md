@@ -1,7 +1,7 @@
 # GMOCO2
 
 ## Introduction
-This is the data sharing module for the submitted article --- “	Observational data reveals global models overestimate rising CO<sub>2</sub>-induced streamflow”, and a more detailed description of the data and codes is given here for review and exchange with reviewers and interested research stakeholders. 
+This is the data sharing module for the submitted article --- “Observational data reveals global models overestimate rising CO<sub>2</sub>-induced streamflow”, and a more detailed description of the data and codes is given here for review and exchange with reviewers and interested research stakeholders. 
 
 **Author:** Haoshan Wei; Yongqiang Zhang*; Qi Huang; Francis H.S. Chiew; Jinkai Luan; Jun Xia; Changming Liu
 
