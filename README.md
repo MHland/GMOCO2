@@ -21,6 +21,6 @@ The source code for the three main images in the text is shown in  **Figure num.
 
 Annual observed streamflow, annual precipitation, annual potential evapotranspiration, and annual land type data are available for the 1116 catchments (in **dataset/small catchments/Yearly_streamflow_dataset.rar**, please unpack before use).
 
-Annual observed streamflow data are available for 44 large bains (in **dataset/large basins/large basins information.xlsx**, please unpack before use)
+Annual observed streamflow data are available for 44 large bains (in **dataset/large basins/large basins information.xlsx**)
 
-Other data, including: results for observation-constrained models, results of the regularized optimal fingerprinting method, and detailed results of the full discretization method for small basins are given, as detailed in dataset, where **read me**, for a detailed description.
+Other data, including: results for observation-constrained models, results of the regularized optimal fingerprinting method, and detailed results of the full discretization method for small basins are given, as detailed in **dataset/**, where **read me**, for a detailed description.
