@@ -1,0 +1,9 @@
+1. random_100.xlsx: 100 model selections for CMIP6.
+2. Global_contribution.csv: Probabilistic frequency of global streamflow attributed to CO2, CLI, and LUC with a total frequency of 300.
+	(1) BNEMS; BNMS; BREMSC; BRMSC: Best-VAS-EM, Best-VAS-SM, Best-TAS-EM, Best-TAS-SM, separately.
+	(2) xxx_one; xxx_three: single-factor results and multi-factor results
+3. Folder: 
+	(1) BNEMS_; BNMS_; BREMSC_; BRMSC_: : Best-VAS-EM, Best-VAS-SM, Best-TAS-EM, Best-TAS-SM, separately.
+	(2) one_component; three_component: single-factor results and multi-factor results
+	(3) k_years_n: Results of five-overlap averaging for year k; n and random_100 correspond to each other; n=101 means that all CMIP6 models were selected.
+

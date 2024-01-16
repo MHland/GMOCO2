@@ -1,0 +1,65 @@
+1. result.xlsx
+	Name 				--- 	Name of catchments
+	Area				--- 	Area of the catchments
+	Lon				--- 	Longitude
+	Lat				--- 	Latitude
+	no_missing_year_len		--- 	Length of year with no missing daily data (1981-2020)
+	Index 				--- 	Pettitt test results, 0 represents change, 1 represents no abrupt change
+	Main_climate			--- 	Köppen-Geiger climate classification, 0-Tropical, 1-Arid, 2-Temperate, 3-Cold, 4-Polar
+	ocean, urban, cropland, pasture, forest, shrubland, sparse, water
+					---	Average of percentages for each land use and vegetation type
+2. observation_based_approach_result.csv
+(1) This file is the results of standardized multiple regressions for each of the 1116 catchments under the four potential evapotranspiration calculation methods, as described below:	
+	Name 				--- 	Name of catchments
+	Area				--- 	Area of the catchments
+	Lon				--- 	Longitude
+	Lat				--- 	Latitude
+	Index 				--- 	Pettitt test results, 0 represents change, 1 represents no abrupt change
+
+(2) In the latter columns, the first half of the column name is an abbreviation of the method used to calculate potential evapotranspiration:
+	PET_FAO_ 			--- 	FAO Penman-Monteith method
+	PET_FAO_YANG_			--- 	FAO Penman-Monteith (YANG) method
+	PET_PT_				--- 	Priestley-Taylor method
+	PET_HargreavesSamani_		--- 	Hargreaves-Samani method
+
+(3) The second half of the column name is an abbreviation of the specific variable:
+	R2 				--- 	Goodness-of-fit R2 for standardized regression
+	p_value				---	Significance coefficients for standardized regression
+	par_P				---	Standardized regression coefficients for precipitation (P)
+	par_Ep				---	Standardized regression coefficients for potential evapotranspiration (Ep)
+	par_CO2				---	Standardized regression coefficients for CO2 (CO2)
+	CO2_contribution			---	CO2-driven changes in streamflow
+	P_contribution			---	Precipitation-driven changes in streamflow
+	Ep_contribution			---	Potential evapotranspiration-driven changes in streamflow
+	Q_change				---	Changes in streamflow
+	obs				---	Multi-year averages of observed streamflow
+
+3. info.xlsx
+	Name 				--- 	Name of catchments
+	File_name				---	Filename
+	Area				--- 	Area of the catchments
+	Lon				--- 	Longitude
+	Lat				--- 	Latitude
+	no_missing_year_len		--- 	Length of year with no missing daily data (1981-2020)
+	LC_change			--- 	Land use change (%)
+	irrigate_change			---	Irrigated change (%)
+	reservoir_GDAT			---	Reservoir impact (%)
+	reservoir_GAN			---	Reservoir impact (%)
+	reservoir_dor_pc_pva		---	Reservoir impact (%)
+Note: Reservoir impact is calculated as reservoir water capacity/average multi-year streamflow. Here, the selected catchments have no reservoirs, or the reservoir impact is 0.
+
+4. Yearly_streamflow_dataset
+The folder contains detailed annual change data for 1116 sites, with the file name being the catchment name. Here, specific data is included:
+	Year				---	Years from 1981 to 2020
+	Flow_mm				---	Annual streamflow for the year
+	P_MSWEP			---	Calculated annual precipitation10
+	CO2				---	Annual value of carbon dioxide
+Annual atmospheric CO2 concentration data calculated from monthly data; monthly atmospheric CO2 concentration data were obtained from NOAA globally averaged marine surface monthly mean data (ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2 mm gl.txt)
+
+Annual potential evapotranspiration was calculated by these 4 methods:
+	PET_FAO 				--- 	FAO Penman-Monteith method
+	PET_FAO_YANG_			--- 	FAO Penman-Monteith (YANG) method2
+	PET_PT_				--- 	Priestley-Taylor method
+	PET_HargreavesSamani		--- 	Hargreaves-Samani method
+The percentage of land use change per year in the catchment is also given, including: ocean, urban, cropland, pasture, forest, shrubland, sparse and water
+

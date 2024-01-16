@@ -1,0 +1,1 @@
+Simulated values of continental and global area-weighted streamflow for each TRENDY model.

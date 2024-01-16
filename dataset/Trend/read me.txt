@@ -1,0 +1,3 @@
+(1) BNEMS; BNMS; BREMSC; BRMSC: Best-VAS-EM, Best-VAS-SM, Best-TAS-EM, Best-TAS-SM, separately.
+(2) _OBS: Trends for each grid, rows for latitude, columns for longitude
+(2) _OBS_p_value: Trend significance for each grid, rows for latitude, columns for longitude
