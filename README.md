@@ -9,6 +9,8 @@ This is the data sharing module for the submitted article --- “Limited contrib
 
 **Date:** January 2024
 
+**Cite by:** Haoshan Wei,Yongqiang Zhang*,Qi Huang,Francis H. S. Chiew,Jinkai Luan,Jun Xia* & Changming Liu. Direct vegetation response to recent CO2 rise shows limited effect on global streamflow. Nature Communications 15,9423 (2024). https://doi.org/10.1038/s41467-024-53879-x
+
 <br/>
 
 ## Figure
